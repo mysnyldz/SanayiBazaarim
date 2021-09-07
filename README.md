@@ -1,1 +1,2 @@
-# Kullanıcı adı : admin   Şifre : admin
+# Kullanıcı adı : admin   
+# Şifre : admin
