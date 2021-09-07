@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Login</title>
+    <link href="~/Sanayi-eticaret/Login.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="pencere">
+
+
+                <div class="baslik">
+                    Giriş
+                </div>
+                @using (Html.BeginForm("Index", "Login", FormMethod.Post))
+                {
+                    <div class="txtbox">
+                        <input type="text" name="kullaniciAdi" placeholder="Kullanıcı Adı" />
+                    </div>
+                    <div class="txtbox">
+                        <input type="password" name="sifre" placeholder="Şifre" />
+                    </div>
+                    <input type="submit" class="girisbutonu" value="Giriş yap" />
+                }
+
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

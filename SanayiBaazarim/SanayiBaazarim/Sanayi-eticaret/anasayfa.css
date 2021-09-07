@@ -1,0 +1,82 @@
+﻿body {
+    background: linear-gradient(to right top,#2c061f69,#374045,#d89116);
+    font-family: sans-serif;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size:contain;
+    overflow-x: hidden;
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.arkaplan{
+  background-image:url(/Sanayi-eticaret/Resimler/arkaplan.jpg);
+  background-size:cover;
+  opacity: 0.2;
+  height: 1000px;
+  background-repeat: no-repeat;
+}
+#wrapper {
+    min-height: 100px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+header {
+    width: auto;
+    height: 110px;
+    background: rgba(59, 22, 47, 0.397);
+    border: 3px solid #82C0CC;
+    border-radius: 25px;
+}
+
+    header .logo {
+        position: absolute;
+        padding: 10px;
+        left:100px;
+        float: left;
+        width: 50px;
+        height: 110px;
+        text-align: center;
+        display: flex;
+    } 
+header nav {
+    text-align: inherit;
+    padding: 30px;
+}
+
+
+.girişyap input[name="Giris"] {
+    position:absolute;
+    background-color: #90dd92;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.5s;
+    left:89%;
+    top:3%;
+    
+}
+.girişyap input[name="Giris"]:hover {
+        background-color: lawngreen;
+        color: black;
+        cursor: pointer;
+    }
+    .girişyap-wrap a{
+        text-decoration:none;
+    }
+

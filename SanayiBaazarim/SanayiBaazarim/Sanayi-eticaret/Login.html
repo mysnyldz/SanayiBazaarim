@@ -1,0 +1,36 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Login.aspx.cs" Inherits="Login" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Login</title>
+    <link href="/Login.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="pencere">
+
+            </div>
+            <div class="Giriş">
+                Giriş
+            </div>
+            <div class="panel">
+                <asp:TextBox ID="Kadı" CssClass="KullaniciAdi" placeholder= "Kullanıcı Adınız" runat="server" />
+                <asp:TextBox ID="Sifre" CssClass="Sifre" placeholder= "Şifreniz" runat="server" />
+                <asp:Button ID="btnGiris" Text="Giriş Yap" CssClass="btngiris" runat="server" OnClick="btnGiris_Click" />
+                <asp:Label ID="LblSonucu" CssClass="LblSonucu" Text="" runat="server" />
+            </div>
+            <div class="ana">
+                <a href="./anasayfa.aspx"><input type="button" name="anasayfa" value="Anasayfa" /></a>
+                <a href="./KayıtOl.aspx"><input type="button" name="kayıtol" value="Kayıt Ol" /></a> 
+
+            </div>
+            
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+﻿@using SanayiBaazarim.Models.siniflar
+@model List <teklifler>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<table class="table table-bordered mt-3">
+    <tr>
+        <th>Teklif Id si</th>
+        <th>Ürün Id si</th>
+        <th>Teklif açıklaması</th>
+        <th>Teklif para değeri</th>
+        <th>Teklif Oluşturulma Tarihi</th>
+    </tr>
+   @foreach (var x in Model)
+   {
+    <tr>
+            <td>@x.Id</td>
+            <td>@x.productId</td>
+            <td>@x.offerHead</td>
+            <td>@x.offerValue</td>
+            <td>@x.offerCreateTime</td>
+   </tr>
+   }
+    
+
+</table>

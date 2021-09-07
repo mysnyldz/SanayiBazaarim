@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-offers",
+      "appliesTo": "offers.sql",
+      "type": "launch"
+    },
+    {
+      "taskName": "task-offers",
+      "appliesTo": "offers.sql",
+      "type": "launch"
+    }
+  ]
+}
